@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif, "Poppins";
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  /* align-items: center; */
+  /* text-align: center; */
+}
+
+.card {
+    background: linear-gradient(90deg, rgba(47,47,185,1) 8%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%);  width: 90%;
+  max-width: 400px;
+  color: white;
+  /* margin: 50px; */
+  padding: 10px;
+  /* text-align: start; */
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 20px;
+  margin: auto;
+  justify-content: center;
+  margin-top: 10%;
+
+}
+
+.seacrh {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.seacrh input {
+  width: 60%;
+  border: 0px;
+  outline: 0;
+  padding: 10px;
+  border-radius: 50px;
+  color: rgb(28, 22, 22);
+  /* font-weight: 900px; */
+}
+
+#icon {
+  width: 10%;
+  /* border-radius: 180px; */
+  border-radius: 80px;
+  border: 0;
+  outline: 0;
+  /* padding: 10px; */
+  padding: 10px;
+  color: white;
+  background-color: white;
+  cursor: pointer;
+}
+
+#icon img {
+  height: 13px;
+  width: 13px;
+  /* border-radius:50px ; */
+}
+
+#sun img {
+  height: 150px;
+  width: 150px;
+}
+
+#degree {
+  font-size: 80px;
+  font-weight: 500px;
+}
+
+#country {
+  font-size: 30px;
+  font-weight: 400px;
+}
+
+.humidity img {
+  width: 30px;
+}
+
+#humidity_data h3 {
+  font-size: 25px;
+  font-weight: 700;
+  /* white-space: 10px; */
+}
+#humidity_data h4 {
+  font-size: 15px;
+  font-weight: 200;
+  margin-top: 3px;
+  /* color: blue */
+}
+
+.humidity {
+  display: flex;
+  width: 50%;
+  /* align-items: center; */
+  justify-content:center ;
+}
+
+.details {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px;
+}
+
+#humidity_data {
+  margin-left: 15px;
+}
